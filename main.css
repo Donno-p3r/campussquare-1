@@ -1,6 +1,6 @@
 body {
   padding-top: 3rem;
-  color: #5a5a5a;
+  color: #eee;
 }
 
 h1, p {
@@ -46,7 +46,7 @@ h1, p {
 .carousel {
   margin-bottom: 6rem;
   padding-top: 1rem;
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
 }
 
 .carousel-caption {
@@ -72,12 +72,30 @@ h1, p {
 
 .caro-head {
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: "Montserrat";
+}
+
+.caro-head2 {
+  font-size: 4rem;
 }
 
 .caro-p {
   font-size: 4rem;
+}
+
+.target {
+  position: absolute;
+  bottom: 4rem;
+  left: 8rem;
+  width: 22rem;
+}
+
+.event {
+  position: absolute;
+  bottom: 0rem;
+  left: 8rem;
+  width: 25rem;
 }
 
 /* MARKETING */
@@ -86,18 +104,16 @@ h1, p {
   text-align: center;
 }
 
-.marketing {
-  font-weight: 400;
-}
-
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
 
 .marketing {
-  padding-top: 6rem;
+  padding-top: 1rem;
   padding-bottom: 6rem;
+  font-weight: 400;
+  background-color: white;
 }
 
 .mark-feat {
@@ -125,17 +141,11 @@ h1, p {
   padding-bottom: 1%;
 }
 
-/* Featurettes
-------------------------- */
-.featurette-divider {
-  margin: 5rem 0;
+.support {
+  position: absolute;
+  right: 1.5rem;
 }
 
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -145,10 +155,6 @@ h1, p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
   }
 }
 
