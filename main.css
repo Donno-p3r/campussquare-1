@@ -1,6 +1,5 @@
 body {
   padding-top: 3rem;
-  background-color: #eee;
 }
 
 h1, p {
@@ -14,7 +13,7 @@ h1, p {
 
 .navbar, .title {
   padding: 0 0 0.3rem;
-  background-color: #EEEEEE;
+  background-color: #FFF;
 }
 
 .navbar-brand {
@@ -25,7 +24,7 @@ h1, p {
 }
 
 .navbar-brand:hover {
-  color: #000D6B;
+  color: #564FF5;
 }
 
 .nav-item {
@@ -39,7 +38,7 @@ h1, p {
 }
 
 .nav-link:hover {
-  color: #000D6B;
+  color: #564FF5;
 }
 
 /* CAROUSEL */
@@ -86,9 +85,9 @@ h1, p {
 
 .target {
   position: absolute;
-  bottom: 4rem;
-  left: 8rem;
-  width: 22rem;
+  bottom: 3rem;
+  left: 6rem;
+  width: 28rem;
 }
 
 .event {
@@ -136,7 +135,7 @@ h1, p {
 
 /* Contact */
 .contact {
-  background-color: #EEEEEE;
+  background-color: #FFF;
   padding: 2% 8%;
   padding-bottom: 1%;
 }
