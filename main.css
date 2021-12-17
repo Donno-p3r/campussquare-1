@@ -21,6 +21,8 @@ h1, p {
   font-size: 1.7rem;
   font-weight: bold;
   color: black;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .navbar-brand:hover {
@@ -32,13 +34,17 @@ h1, p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "Montserrat-Light";
   color: black;
 }
 
 .nav-link:hover {
   color: #564FF5;
+}
+
+.logbutton {
+  padding-top: 0.4rem;
 }
 
 /* CAROUSEL */
@@ -92,7 +98,7 @@ h1, p {
 
 .event {
   position: absolute;
-  bottom: 0rem;
+  bottom: 0;
   left: 8rem;
   width: 25rem;
 }
