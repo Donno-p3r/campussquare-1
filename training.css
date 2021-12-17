@@ -6,7 +6,11 @@ h2 {
   color: #0F044C;
 }
 
-p {
+b {
+  color: #193737;
+}
+
+p, ul{
   color: #40514E;
 }
 
@@ -61,51 +65,6 @@ p {
 .title-p {
   font-size: 1.5rem;
   color: #000;
-}
-
-/* INTERVIEW */
-
-#interview {
-  background-color: #fff;
-}
-
-.interview-boxes {
-  padding-top: 3%;
-  padding-left: 6%;
-  padding-bottom: 5%;
-}
-
-.interview-box {
-  margin: 1%;
-  background-color: white;
-  width: 400px;
-  height: 650px;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.box-p {
-  padding-top: 0.5rem;
-  line-height: 2rem;
-  color: #000;
-  text-align: left;
-  color: #3B0000;
-}
-.box-pa {
-  color: #000;
-
-}
-.box-h {
-  color: #000;
-}
-
-/* OFFCANVAS */
-
-.offcanvas {
-  width: 95%;
-  height: 90%;
-  padding: 5rem;
-  margin-left: 1.5rem;;
 }
 
 /* NEWS CSS */
